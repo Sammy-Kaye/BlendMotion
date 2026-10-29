@@ -1,0 +1,14 @@
+# Training environment (Colab/Kaggle already ship torch; only add the rest there).
+# Local Windows CPU-only (enough for tests/benchmark):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+# Local RTX 3050 (CUDA 12.x):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu126
+numpy>=1.26
+torch>=2.4
+onnx>=1.16
+onnxruntime>=1.18
+pytest>=8
+# Data prep only (not needed for tests): scipy, tqdm
+# AMASS .npz needs only numpy.  The SMPL body model is not needed for joint
+# rotations (we use poses + trans); the neutral rest-joint offsets are needed
+# once, see docs/ml-research.md section 3.

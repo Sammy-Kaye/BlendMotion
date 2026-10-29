@@ -1,0 +1,12 @@
+﻿
+# Third-party reference material, never shipped
+references/
+data/
+*.blend1
+__pycache__/
+*.onnx
+
+*.blend
+*.blend1
+*.fbx
+*.exr

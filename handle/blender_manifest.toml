@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "handle"
+version = "0.0.1"
+name = "BlendMotion"
+tagline = "Direct-manipulation posing and animation for humanoid rigs"
+maintainer = "Samuel <samuel.ki8492@gmail.com>"
+type = "add-on"
+
+website = "https://github.com/Sammy-Kaye/BlendMotion"
+
+tags = ["Animation", "Rigging"]
+
+blender_version_min = "5.0.0"
+
+license = [
+  "SPDX:MIT",
+]
